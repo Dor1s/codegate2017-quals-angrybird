@@ -4,8 +4,8 @@
 
 20 bytes long string: `Im_so_cute&pretty_:)`
 
-The original challenge was given in a form of ELF executable. The solutions
-below are based on the C-code produce by Hex-Rays Decompiler.
+The original challenge was given in a form of an ELF executable. The solutions
+listed below are based on the C-code produce by Hex-Rays Decompiler.
 
 # Solve with KLEE (takes a few seconds)
 
@@ -33,3 +33,7 @@ $ clang -O2 -fsanitize=fuzzer fuzz_target.c -o fuzz_target
 $ mkdir inputs
 $ ./fuzz_target -use_value_profile=1 -max_len=20 ./inputs/
 ```
+
+# Other solutions
+
+See CTFtime.org [write-ups page](https://ctftime.org/task/3375).
