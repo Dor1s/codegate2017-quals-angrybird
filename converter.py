@@ -1,6 +1,9 @@
 #!/usr/bin/python2
-import re
+# This file is distributed under the University of Illinois Open Source
+# License. See LICENSE.TXT for details.
+#
 
+import re
 
 # e.g. v25 = ~data[6];
 r1 = re.compile(r'.*data\[([\d]+)\].*')

@@ -1,3 +1,6 @@
+// This file is distributed under the University of Illinois Open Source
+// License. See LICENSE.TXT for details.
+//
 // Go to http://klee.github.io/docker/, then execute in the  docker image:
 // 
 // $ clang -DNDEBUG -O3 -I/home/klee/klee_src/include -emit-llvm -c -g a.c -o a.bc
