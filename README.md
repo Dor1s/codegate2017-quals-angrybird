@@ -34,6 +34,13 @@ $ mkdir inputs
 $ ./fuzz_target -use_value_profile=1 -max_len=20 ./inputs/
 ```
 
+**UPD:** [libFuzzer] running on [ClusterFuzz] solved this challenge [in two days].
+The fuzzer was running on approximately 50-100 CPU cores.
+
+[libFuzzer]: https://llvm.org/docs/LibFuzzer.html
+[ClusterFuzz]: https://github.com/google/clusterfuzz
+[in two days]: https://github.com/google/sanitizers/issues/964#issuecomment-395425873
+
 # Other solutions
 
 See CTFtime.org [write-ups page](https://ctftime.org/task/3375).
