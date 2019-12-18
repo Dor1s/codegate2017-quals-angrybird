@@ -5,7 +5,7 @@
 20 bytes long string: `Im_so_cute&pretty_:)`
 
 The original challenge was given in a form of an ELF executable. The solutions
-listed below are based on the C-code produce by Hex-Rays Decompiler.
+listed below are based on the C-code produced by Hex-Rays Decompiler.
 
 # Solve with KLEE (takes a few seconds)
 
